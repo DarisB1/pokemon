@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #111315;
+}
+
+header {
+    background: no-repeat center/cover url(./assets/bandrole.svg);
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+
+main {
+    background-color: #1B1D1F;
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin: 20px;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.pIntro {
+    color: #6F757C;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.divChoosePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btnFleche {
+    border: none;
+    border-radius: 8px;
+    background-color: #4D5562;
+    padding: 5px 10px;
+}
+
+.page {
+    color: #fff;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  background-color: #181818;
+  border-radius: 16px;
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px auto;
+}
+
+.card-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.divType {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.card-type {
+  margin: auto;
+  font-size: 0.9rem;
+  width: max-content;
+  padding: 2px 8px;
+  border-radius: 99999px;
+}
+
+.card-stats {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.card-stats span {
+  color: white;
+  font-weight: bold;
+}
+
+.fire {
+  background-color: orangered;
+}
+.flying {
+  background-color: mediumpurple;
+}
+.grass {
+  background-color: green;
+}
+.water {
+  background-color: cyan;
+}
+.bug {
+  background-color: burlywood;
+}
+.poison {
+  background-color: purple;
+}
+.normal {
+  background-color: gray;
+}
+.electric {
+  background-color: yellow;
+}
+.ground {
+  background-color: chocolate;
+}
+.fairy {
+  background-color: pink;
+}
+.fighting {
+  background-color: red;
+}
+.psychic {
+  background-color: magenta;
+}
+.rock {
+  background-color: #3e3e3e;
+}
+.steel {
+  background-color: gainsboro;
+}
+.ice {
+  background-color: cadetblue;
+}
+.ghost {
+  background-color: darkgrey;
+}
+.dragon {
+  background-color: blueviolet;
+}
+.dark {
+  background-color: #000000;
+  color: #242424 ;
+}
+
+@media screen and (min-width:768px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:1350px) {
+    main {
+        width: 97%;
+    }
+
+    article {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
